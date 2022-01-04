@@ -27,5 +27,6 @@ class MainActivity : AppCompatActivity() {
         val totalItensArray = frases.size
         val numeroAleatorio = Random().nextInt(totalItensArray)
         texto.setText( frases [numeroAleatorio] )
+
     }
 }
